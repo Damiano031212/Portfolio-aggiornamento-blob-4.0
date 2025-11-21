@@ -152,7 +152,7 @@ a {
 #item_1 {
     margin: 0;
     font-size: 18px;
-    width: 889px;
+    width: fit-content;
     font-family: "Helvetica Now Display", sans-serif;
     font-weight: Bold;
     color: rgba(255, 255, 255, 1);
@@ -278,4 +278,5 @@ button, input, textarea, select, label {
 /* classe reveal non strettamente necessaria (riferimento) */
 .page-shutter.reveal {
   transform: translateY(-100%);
+
 }
